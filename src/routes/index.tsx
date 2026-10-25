@@ -51,6 +51,7 @@ function Index() {
   const nextMatches = upcomingMatches.slice(0, 4);
   const topTeams = standings.slice(0, 5);
   const [featured, ...rest] = articles;
+  if (!featured) return null;
 
   return (
     <div>

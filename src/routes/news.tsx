@@ -18,6 +18,7 @@ export const Route = createFileRoute("/news")({
 
 function NewsPage() {
   const [featured, ...rest] = articles;
+  if (!featured) return null;
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
