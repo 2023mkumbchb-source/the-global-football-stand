@@ -242,7 +242,7 @@ export const articles: Article[] = [
     ],
   },
   {
-    slug: "fkw-pl December-break-calendar",
+    slug: "fkf-december-break-calendar",
     title: "League confirms December break calendar and rescheduled Matchweek 14 ties",
     excerpt:
       "The FKF Premier League will pause after Matchweek 16 on 13 December, with two postponed fixtures folded into midweek slots.",
